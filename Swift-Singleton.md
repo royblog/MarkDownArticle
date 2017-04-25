@@ -12,8 +12,8 @@ categories: Swift
 在Swift中单例实现比较简单：
 ``` bash
 class TheOneAndOnly {
-static let shareInstance = TheOneAndOnly()
-private init() {}
+    static let shareInstance = TheOneAndOnly()
+    private init() {}
 }
 ```
 全局变量（还有结构体和枚举体的静态成员）的Lazy初始化方法会在其被访问的时候调用一次。类似于调用'dispatch_once'以保证其初始化的原子性。这样就有了一种很酷的'单次调用'方式：只声明一个全局变量和私有的初始化方法即可。

@@ -1,6 +1,6 @@
 ---
 title: Hello World
-tags: [博客, hexo, github]
+tags: [Hexo, Github]
 categories: Mind
 ---
 对于一枚码农，刚接触编程的时候，写的第一行代码，很有可能是打印“Hello World”，今天使用Github+Hexo实现了一个简易的博客，就用Hello World和大家打声招呼吧。

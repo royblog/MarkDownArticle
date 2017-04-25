@@ -1,7 +1,7 @@
 ---
 title: Swift Start
 date: 2017-04-13 14:36:12
-tags: [Swift]
+tags: [Swift, iOS]
 categories: Mind
 ---
 Swift语言，是苹果在2014年WWDC发布的新开发语言，是未来趋势，将来必定会替代Objective-C。但是新事物的成长历程历来是前途是光明的，道路是曲折的，所以目前开发者还是主要以使用Objective-C为主，作为一名开发者，对于新技术应该是趋之若鹜，因为公司一直使用的Objective-C语言，再加上自己的一点懒惰之心，Swift的学习到目前为止只看了官方文档，并没有进行深入学习和项目实践，为了牢记落后就没有工资的历史遗训，决定好好学习Swift语言。

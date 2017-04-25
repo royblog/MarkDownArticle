@@ -32,12 +32,12 @@ for _ in 1...power {
 ## 4.忽略外部参数名
 ``` bash
 func cal(num1: Int, num2: Int) -> Int {
-return num1 + num2
+    return num1 + num2
 }
 cal(num1: 15, num2: 15)
 
 func sum(_ num1: Int, _ num2: Int) -> Int {
-return num1 + num2
+    return num1 + num2
 }
 sum(15, 15)
 ```

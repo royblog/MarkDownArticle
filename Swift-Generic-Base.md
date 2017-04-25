@@ -22,12 +22,12 @@ Swift引入泛型和函数式编程的思想，极大地扩展了设计的空间
 
 ``` bash
 func equalInt(numOne: Int, numbTwo: Int) -> Bool {
-return numOne == numbTwo
+    return numOne == numbTwo
 }
 equalInt(numOne: 4, numbTwo: 4)
 
 func equalString(strOne: String, strTwo: String) -> Bool {
-return strOne == strTwo
+    return strOne == strTwo
 }
 equalString(strOne: "roy", strTwo: "note")
 ```
@@ -36,7 +36,7 @@ equalString(strOne: "roy", strTwo: "note")
 
 ``` bash
 func isEquals<T: Comparable>(a: inout T, b: inout T) -> Bool {
-return (a == b)
+    return (a == b)
 }
 var num1 = 5
 var num2 = 5
@@ -52,9 +52,9 @@ isEquals(a: &str1, b: &str2)
 
 ``` bash
 func swapTwoValue<T>(a: inout T, b: inout T) {
-let tempValue = a
-a = b
-b = tempValue
+    let tempValue = a
+    a = b
+    b = tempValue
 }
 
 var oneStr = "hello"

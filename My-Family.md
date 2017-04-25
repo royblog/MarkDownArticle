@@ -4,7 +4,7 @@ date: 2017-04-14 19:24:25
 tags: [Photo, Family]
 categories: Photo
 ---
-本来想实现一个相册，来存储照片，无奈水平比较渣，又懒于查资料整理，就以一种比较丑陋的方式来展示图片，为了防止大家的涂抹星子飞来，我决定不开评论功能了，哈哈，我太明智了。
+用博客存储图片也不错哦。
 
 ***
 
@@ -43,3 +43,5 @@ categories: Photo
 ```
 ![](http://roywyg.oss-cn-shanghai.aliyuncs.com/Image/B7FC923D7BEF734B3B05E4B16F310F14.jpg)
 ***
+
+

@@ -9,9 +9,10 @@ categories: Swift
 在Swift中lock一个变量可以使用：
 ``` bash
 func myMethod(anObj: AnyObject!) {
-objc_sync_enter(anObj)
-//在enter 和 exit 之间 anObj不会被其它线程改变
-objc_sync_exit(anObj)
+    objc_sync_enter(anObj)
+    //在enter 和 exit 之间 anObj不会被其它线程改变
+    objc_sync_exit(anObj)
+}
 ```
 加锁和解锁都需要消耗性能，我们不可能为所有方法都加上锁，并且在App中涉及多线程部分有限，也没有必要为所有东西加锁。过多的锁没有意义，不但会消耗性能，也有可能会导致死锁问题。在处理多线程时，尽量保持简单。
 

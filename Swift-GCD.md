@@ -46,12 +46,12 @@ Grand Central Dispatch (GCD)是Apple开发的一个多核编程的较新的解�
 在我们使用多线程的时候，主要是处理并发事件，使用下面的代码能够解决大部分场景：
 ``` bash
 DispatchQueue.global().async {
-print("开始执行异步任务")
-Thread.sleep(forTimeInterval: 2)
-print("异步任务执行完毕")
-DispatchQueue.main.async {
-print("回到UI线程")
-}
+    print("开始执行异步任务")
+    Thread.sleep(forTimeInterval: 2)
+    print("异步任务执行完毕")
+    DispatchQueue.main.async {
+        print("回到UI线程")
+    }
 }
 ```
 

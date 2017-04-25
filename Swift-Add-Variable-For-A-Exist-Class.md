@@ -10,10 +10,10 @@ categories: Swift
 import Foundation
 
 class Person: NSObject {
-var name: NSString?
-func eatFood() -> Void {
-print("People can eat")
-}
+    var name: NSString?
+    func eatFood() -> Void {
+        print("People can eat")
+    }
 }
 
 ```
@@ -26,15 +26,15 @@ import Foundation
 private var key: Void?
 
 extension Person {
-var gender: String? {
-get {
-return objc_getAssociatedObject(self, &key) as? String
-}
+    var gender: String? {
+        get {
+            return objc_getAssociatedObject(self, &key) as? String
+        }
 
-set {
-return objc_setAssociatedObject(self, &key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-}
-}
+        set {
+            return objc_setAssociatedObject(self, &key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
 }
 ```
 

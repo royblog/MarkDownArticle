@@ -34,7 +34,7 @@ let kScreenWidth = UIScreen.mainScreen().bounds.size.width
 ``` bash
 func RGBCOLOR(_ r:CGFloat,_ g:CGFloat,_ b:CGFloat) -> UIColor
 {
-return UIColor(red: (r)/255.0, green: (g)/255.0, blue: 
+    return UIColor(red: (r)/255.0, green: (g)/255.0, blue: 
 }
 ```
 
